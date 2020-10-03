@@ -1,0 +1,11 @@
+# path or URL to sample sheet (TSV format, columns: sample, condition, ...)
+samples: samples.tsv
+
+trimming:
+  # skip trimming: false or true
+  skip: false
+  # the sequencing adapter
+  adapters: "/media/lee/HDD_Array/Stern/script_repos/bbmap_resources/adapters.fa"
+
+params:
+  bbduk: "ktrim=r k=23 mink=11 hdist=1 qtrim=w trimq=10 minlen=36 entropy=0.01 entropywindow=50 entropyk=5 tbo"
