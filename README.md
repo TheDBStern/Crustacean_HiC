@@ -1,9 +1,16 @@
 # Crustacean_HiC
-Pipeline for aligning and processing Crustacean HiC data
+Snakemake workflow for aligning and processing Crustacean HiC data
+
+## Authors
+
+* David B. Stern (@thedbstern), https://pancrustacea.weebly.com
+
+## Usage
+
+#### TBD
 
 Steps:
 1. Trim and filter reads
 2. Align to genome
-3. Filter alignments
-4. Determine optimal resolution?
-5. Estimate contact matrix
+3. QC and filter alignments
+4. Estimate contact matrix
